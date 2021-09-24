@@ -18,5 +18,5 @@ output "random-uuid" {
 }
 
 output "random-string" {
-  value = random_string.random.string
+  value = random_string.random.id
 }
